@@ -32,7 +32,7 @@ else:
 	word3 = raw_input("Are you sure?: ").upper()
 	
 """ Are you sure? """
-if word3 == "NO":
+if word3 == "YES":
 	print "Let's get to it "+ name + "!"
 	adding()
 else:
